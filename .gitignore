@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+temp.pdf
+chats_store.json
+doc_store.pkl
+.DS_Store
+venv/
