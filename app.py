@@ -54,7 +54,7 @@ def load_model():
     return SentenceTransformer("all-MiniLM-L6-v2")
 
 model = load_model()
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+groq_key = st.secrets.get("GROQ_API_KEY", os.environ.get("GROQ_API_KEY"))`nclient = Groq(api_key=groq_key)
 
 # ---- Backend functions ----
 def extract_pdf(path):
