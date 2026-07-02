@@ -5,7 +5,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** application that lets you
 ![Demo](screenshots/demo.png)
 
 ## 🚀 Live Demo
-[Try it here](your-deployed-link-once-you-have-one)
+[Try it here](https://ai-pdf-research-assistant-dvvqir4zrlyrfsciausyzk.streamlit.app/)
 
 ## ✨ Features
 - 📤 PDF upload with automatic text extraction and cleaning
